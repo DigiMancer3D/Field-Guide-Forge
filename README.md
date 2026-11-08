@@ -1,7 +1,7 @@
 <div align="center">
 
 # 📚 Field Guide Forge
-### From research and scripts to an interactive show—and a linked studio.
+### From research and scripts to an interactive show, and a linked studio.
 
 **Local-first episode authoring • Evidence-driven presenter • OBS broadcaster • Public companion publishing**
 
@@ -19,7 +19,7 @@
 
 A field guide can move from a private script and source-rich storyboard to two distinct destinations:
 
-1. A **private host/broadcaster** HTML that follows the show, displays evidence and—with authorization—requests studio actions.
+1. A **private host/broadcaster** HTML that follows the show, displays evidence and, with authorization, requests studio actions.
 2. A **public-web companion** HTML that keeps the audience-facing material while omitting local automation cues and private studio connections.
 
 > [!WARNING]
@@ -90,7 +90,7 @@ FGF_BCL/                    # Native broadcaster launcher source
 
 Different alpha releases may organize the helpers differently. Use the paths actually present in your checkout.
 
-## Studio Cues — paired studio automation
+## Studio Cues ,  paired studio automation
 
 Studio Cues makes FGF more than a slide viewer. A page, source or content block can be assigned an independent combination of:
 
@@ -137,7 +137,7 @@ Mark or create a **Chat Thank You** page in the editor. It sits before Ending Ta
 
 An editor control lets you supply an image used behind the stage when **OBS-View and fullscreen are both active**. The alpha implementation re-encodes supported images for embedding in the saved project; review the final pixels and permissions before public export.
 
-## FGF-BCL — the newest-episode launcher
+## FGF-BCL ,  the newest-episode launcher
 
 **FGF Broadcaster Launcher (FGF-BCL)** is the optional native C++/Qt6 utility for generating commands such as `3DCP_BCLaunch.sh`. The generated launcher scans its configured directory *when invoked* and opens the highest-priority qualifying private broadcaster output.
 
